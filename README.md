@@ -62,4 +62,4 @@ Commercial or malicious use is prohibited.
 ---
 
 ## ✉️ Contact
-Project developed for academic or training purposes.
+- You can donate me on paypal h8l4ws@gmail.com
